@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.demo.kodi" name="Demonstration repository" version="0.0.2" provider-name="Mafarricos">
+	<extension point="BrazilTvOnLine.repository" name="O Brasil Em Sua Casa">
+		<info compressed="false">http://raw.github.com/Mafarricos/Mafarricos-kodi-demo-repo/master/addons.xml</info>
+		<checksum>http://raw.github.com/Mafarricos/Mafarricos-kodi-demo-repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/Mafarricos/Mafarricos-kodi-demo-repo/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Add on Exclusivo</summary>
+		<description>Addon Description</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
+
+ <requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>ChicagoIPTV Modificado</summary>
+    <description lang="pt">[COLOR red]Mod do Chicago[/COLOR][COLOR white]IPTV[/COLOR] + LiveStreams Pro</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+   
